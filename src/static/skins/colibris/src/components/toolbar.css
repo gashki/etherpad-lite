@@ -8,6 +8,11 @@
   border-bottom: none;
 }
 
+.toolbar.centered {
+  justify-content: center;
+  padding: 0 5px;
+}
+
 #editbar.editor-scrolled {
   border-bottom: 1px solid #d2d2d2;
   border-bottom: var(--toolbar-border);
@@ -111,6 +116,10 @@
 }
 .toolbar .menu_right li {
   margin-left: 10px;
+}
+
+.toolbar.centered .menu_left {
+  padding-left: 0;
 }
 
 .toolbar.cropped .menu_left {
