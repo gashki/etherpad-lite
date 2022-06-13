@@ -144,9 +144,6 @@ exports.padeditbar = new class {
       this._bodyKeyEvent(evt);
     });
 
-    $('.show-more-icon-btn').click(() => {
-      $('.toolbar').toggleClass('full-icons');
-    });
     this.checkAllIconsAreDisplayedInToolbar();
     $(window).resize(_.debounce(() => this.checkAllIconsAreDisplayedInToolbar(), 100));
 

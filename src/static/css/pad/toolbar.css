@@ -97,42 +97,10 @@
   right: 0;
 }
 
-.toolbar .show-more-icon-btn {
-  display:none;
-  cursor: pointer;
-  height: 39px;
-  width: 39px;
-  line-height: 39px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
-  z-index: 20;
-}
-
 .toolbar.cropped .menu_left {
   width: calc(100% - 39px);
   height: 33px;
   flex-wrap: wrap;
-}
-.toolbar.cropped .show-more-icon-btn {
-  display: block;
-  position: absolute;
-  /*border-bottom: 1px solid #d2d2d2;*/
-  right: 0;
-  top: 0;
-}
-.toolbar.cropped .show-more-icon-btn:after {
-  content: "+";
-}
-.toolbar.full-icons .show-more-icon-btn {
-  line-height: 35px;
-}
-.toolbar.full-icons .show-more-icon-btn:after {
-  content: "-";
-}
-.toolbar.full-icons .menu_left {
-  height: auto !important;
-  overflow: visible;
 }
 
 @media only screen and (max-width: 800px) {

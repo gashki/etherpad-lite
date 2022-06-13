@@ -123,13 +123,9 @@
 }
 
 .toolbar.cropped .menu_left {
-  height: 39px;
+  height: auto !important;
   padding-top: 1px;
-}
-.toolbar .show-more-icon-btn {
-  font-size: 1.8rem;
-  color: #64d29b;
-  color: var(--primary-color);
+  overflow: visible;
 }
 
 @media (max-width: 1000px) {
