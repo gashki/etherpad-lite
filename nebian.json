@@ -1,0 +1,85 @@
+/*
+ * To use this configuration, rename this file to settings.json
+ *
+ * Refer to settings.json.template for information about the settings
+ */
+
+{
+  // Nebian
+  "title": "Nebian",
+  "favicon": null,
+
+  // SQLite database
+  "dbType": "sqlite",
+  "dbSettings": {
+    "filename": "var/nebian.sqlite"
+  },
+
+  // User accounts
+  "users": {
+    "gashki": {
+      "is_admin": true,
+      "password": ""
+    }
+  },
+
+  // Default pad settings
+  "defaultPadText": "",
+  "padOptions": {
+    "alwaysShowChat": false,
+    "chatAndUsers": false,
+    "lang": "en-us",
+    "noColors": true,
+    "showChat": false,
+    "showControls": true,
+    "showLineNumbers": false,
+    "useMonospaceFont": false,
+    "userColor": false,
+    "userName": false,
+    "rtl": false
+  },
+
+  // Client interactivity
+  "allowUnknownFileEnds": false,
+  "maxAge": 36000,
+  "showSettingsInAdminPage": true,
+  "suppressErrorsInPadText": true,
+  "requireAuthentication": false,
+  "requireAuthorization": false,
+  "requireSession": false,
+
+  // Server settings
+  "disableIPlogging": false,
+  "loglevel": "ERROR",
+  "trustProxy": true,
+
+  // Toolbar settings
+  "toolbar": {
+    "center": true,
+    "left": [
+      [
+        "undo",
+        "redo"
+      ],
+      [
+        "bold",
+        "italic",
+        "underline",
+        "strikethrough"
+      ],
+      [
+        "alignLeft",
+        "alignCenter",
+        "alignRight",
+        "alignJustify"
+      ],
+      [
+        "orderedlist",
+        "unorderedlist",
+        "indent",
+        "outdent"
+      ]
+    ],
+    "right": null
+  }
+}
